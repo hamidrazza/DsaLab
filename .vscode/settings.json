@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "*.html": "html",
+        "STACKINC.C": "cpp",
+        "QUEUE.C": "cpp",
+        "LINEARQU.C": "cpp",
+        "QUEUE2.C": "cpp",
+        "DOUBLYQUEUE.C": "cpp",
+        "LinearQue.C": "cpp",
+        "SEARCH.C": "cpp",
+        "BINARYSE.C": "cpp",
+        "INSERTIO.C": "cpp"
+    }
+}

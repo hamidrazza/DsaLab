@@ -11,9 +11,9 @@ void enque();
 void deque();
 void display();
 
-void main(){
+int main(){
 	int choice, repeat=1;
-	clrscr();
+	//clrscr();
 	printf("Circular Queue\n");
 	while(repeat){
 		printf("\n1. Insert\n");
@@ -41,6 +41,7 @@ void main(){
 				printf("Invalid Input\n");
 		}
 	}
+	return 0;
 }
 void enque(){
 	if(size == MAX){

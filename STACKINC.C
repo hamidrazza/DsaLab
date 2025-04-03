@@ -8,7 +8,7 @@ void push();
 void pop();
 void display();
 
-void main()
+int main()
 {
 
 	int repeat = 1, choice;
@@ -40,6 +40,7 @@ void main()
 		printf("Enter 1 to continue, OR 0 for exit ");
 		scanf("%d", &repeat);
 	}
+	return 0;
 }
 void push()
 {

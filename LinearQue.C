@@ -14,7 +14,7 @@ void display();
 
 void main(){
 	int repeat = 1, choice;
-	clrscr();
+	//clrscr();
 	printf("LINEAR QUEUE\n");
 	while(repeat){
 		printf("1. Insert\n");

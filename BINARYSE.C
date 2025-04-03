@@ -2,13 +2,12 @@
 #include <conio.h>
 #define MAX 10
 
-void main(){
+int main(){
 	int n,key,i,j,arr[MAX],start,end,mid;
-	clrscr();
+	//clrscr();
 	printf("=== Binary Search ===");
 	printf("\nEnter the array size : ");
 	scanf("%d",&n);
-
 
 	for(i = 0; i< n;i++){
 
@@ -52,5 +51,6 @@ void main(){
 	if(start > end){
 		printf("Element Not Found");
 	}
-	getch();
+	//getch();
+	return 0;
 }

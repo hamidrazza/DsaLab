@@ -12,9 +12,9 @@ void insert();
 void deleted();
 void display();
 
-void main(){
+int main(){
 	int repeat = 1, choice;
-	clrscr();
+	//clrscr();
 	printf("LINEAR QUEUE\n");
 	while(repeat){
 		printf("1. Insert\n");
@@ -44,7 +44,7 @@ void main(){
 		printf("Want to continue 1/0: ");
 		scanf("%d", &repeat);
 	}
-
+	return 0;
 }
 // Inserting an element into queue
 void insert(){
